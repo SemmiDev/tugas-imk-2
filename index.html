@@ -22,13 +22,9 @@
 							<h4 class="card-title">Login</h4>
 							<form method="POST" class="my-login-validation" novalidate="" name="log">
 								<div class="form-group">
-									<label for="username">Username</label>
-									<input id="username" type="text" class="form-control" name="username" value="" required autofocus>
-									<div class="invalid-feedback">
-										
-									</div>
+									<label for="email">Username</label>
+									<input id="email" type="text" class="form-control" name="email" value="" required autofocus>
 								</div>
-
 								<div class="form-group">
 									<label for="password">Password
 										<a href="forgot.html" class="float-right">
@@ -69,7 +65,7 @@
 
 	<script type="text/javascript">
       function validateForm() {
-          var un = document.log.username.value;
+          var un = document.log.email.value;
           var pw = document.log.password.value;
           
           var username = "sammidev"; 
